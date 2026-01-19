@@ -86,8 +86,6 @@
                 <img src="IMG_20251201_150318.jpg" alt="Imad Javid" class="profile-img left-right-move">
             </div>
         </div>
-    <div class="scroll-indicator" id="scrollBtn">
-        <div class="scroll-arrow"></div>
     </div>
     
     </section>
@@ -109,8 +107,6 @@
     </div>
             </div>
         </div>
-        <div class="scroll-indicator">
-            <div class="scroll-arrow"></div>
         </div>
     </section>
 
@@ -543,6 +539,18 @@ modal.addEventListener('click', (e) => {
     if (e.target === modal) {
         modal.style.display = 'none';
     }
+});
+</script>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    // This line "moves" the menu in and out
+    navMenu.classList.toggle("active");
+    
+    // Optional: Animate the hamburger icon into an 'X'
+    hamburger.classList.toggle("is-active");
 });
 </script>
     <script src="script.js"></script>

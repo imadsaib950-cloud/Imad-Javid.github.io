@@ -62,14 +62,7 @@ body {
     padding: 0 20px;
 }
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: var(--nav-bg);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--border-color);
-    z-index: 1000;
-    transition: all 0.3s ease;
+   
 }
 .nav-container {
     max-width: 1200px;
