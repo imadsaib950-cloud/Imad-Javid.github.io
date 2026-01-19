@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imad javid - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">IJ</div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#CV" class="nav-link">CV</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a href="#Gallery" class="nav-link">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+            <li class="nav-item">
+                <a href="#education" class="nav-link">Academic</a>
+            </li> 
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button id="theme-toggle" class="nav-link"
+                        style="background: none; border: none; cursor: pointer; font-family: inherit; font-weight: 600;">Dark
+                        Mode</button>
+                </li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+   <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="typing-text">Hi, I'm Imad Javid</span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span class="fade-in-text">Software Engineering Student at UET Peshawar</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">About Me</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="IMG_20251201_150318.jpg" alt="Imad Javid" class="profile-img left-right-move">
+            </div>
+        </div>
+    <div class="scroll-indicator" id="scrollBtn">
+        <div class="scroll-arrow"></div>
+    </div>
+    
+    </section>
+            <div class="biodata">
+                <h3>My Bio Data</h3>
+                <ul>
+                    <li><strong>Name:</strong> Imad Javid</li>
+                    <li><strong>Gender:</strong> Male</li>
+                    <li><strong>Date of Birth:</strong> April 30, 2006</li>
+                    <li><strong>Age:</strong> 19 Years</li>
+                    <li><strong>University:</strong> UET Peshawar (Abbottabad Campus)</li>
+                    <li><strong>Department:</strong> Software Engineering</li>
+                    <li><strong>Semester:</strong> 1st Semester</li>
+                    <li><strong>Current Address:</strong> Abbottabad, KPK, Pakistan</li>
+                    <li><strong>Permanent Address:</strong> Kulyari, Buner, KPK, Pakistan</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section id="CV" class="CV">
+        <div class="container">
+            <h2 class="section-title">My CV</h2>
+            <div class="cv-buttons">
+                <button id="openCV" class="btn btn-primary">Open CV</button>
+                <button id="hideCV" class="btn btn-secondary">Hide CV</button>
+            </div>
+            <div class="cv-embed" id="cvEmbed" style="display: none; margin-top: 20px;">
+                <iframe src="White simple student CV resume.pdf" width="75%" height="800"></iframe>
+
+            </div>
+        </div>
+    </section>
+    <section id="Gallery" class="Gallery">
+        <div class="container">    
+     <h2 class="title">My Gallery</h2>
+      <div class="gallery">
+    <img src="12536.jpg" alt="Image 1">
+    <img src="12538.jpg" alt="Image 2">
+    <img src="12539.jpg" alt="Image 3">
+    <img src="25481.jpg" alt="Image 4">
+</div>
+<div class="modal" id="imageModal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
+<section id="video">
+    <h2>Website Video Demonstration</h2>
+
+    <video controls width="100%" poster="thumbnail.jpg">
+        <source src="bandicam 2026-01-19 15-05-08-351 - Trim - Trim.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <p style="margin-top:15px; text-align:center;">
+        This video demonstrates the features and functionality of my portfolio website.
+    </p>
+</section>
+
+
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+         I am a passionate first-semester Software Engineering student at UET Peshawar, Abbottabad Campus. I have a strong foundation in programming and a keen interest in modern web technologies. I am dedicated to building innovative solutions and continuously expanding my technical skills.
+                    </p>
+                    <div class="education-info">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <strong>University:</strong> UET Peshawar – Abbottabad Campus
+                        </div>
+                        <div class="education-item">
+                            <strong>Degree:</strong> Software Engineering
+                        </div>
+                        <div class="education-item">
+                            <strong>Semester:</strong> 1st Semester
+                        </div>
+                        <div class="education-item">
+                            <strong>Registration:</strong> 5120281
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>1st</h3>
+                        <p>Semester</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>SE</h3>
+                        <p>Program</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>UET</h3>
+                        <p>University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="Academic section">
+        <div class="container">
+        <h2>Academic Background</h2>
+        <table border="1" cellspacing="0" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Degree / Level</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>Marks / CGPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Primary</td>
+                    <td>Oriental Public School Dewana Baba Buner</td>
+                    <td>2021</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Matriculation</td>
+                    <td>Ghazali School And College Buner</td>
+                    <td>2023</td>
+                    <td>92%</td>
+                </tr>
+                <tr>
+                    <td>Intermediate (FSc)</td>
+                    <td>Govt.Degree College Mingora Swat</td>
+                    <td>2025</td>
+                    <td>88%</td>
+                </tr>
+                <tr>
+                    <td>Undergraduate (Software Engineering, 1st Semester)</td>
+                    <td>UET Peshawar – Abbottabad Campus</td>
+                    <td>2025 - Present</td>
+                    <td>Enrolled</td>
+                    </div>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>55%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>35%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="65"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Web Development</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Word Press</span>
+                            <span>35%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Data Structures</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Git/GitHub</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>A modern, responsive personal portfolio website built with HTML, CSS, and JavaScript
+                            featuring smooth animations and professional design.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>A full-stack e-commerce platform with user authentication, product management, and shopping
+                            cart functionality.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A productivity application for managing tasks and projects with drag-and-drop functionality
+                            and real-time updates.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always interested in hearing about new opportunities and exciting projects. Feel free to
+                        reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>Email:</strong><a href="mailto:imadsaib950@gmail.com">imadsaib950@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>University:</strong><a href="https://uetpeshawar.edu.pk" target="_blank">UET
+                                Peshawar – Abbottabad Campus</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Registration:</strong><a href="https://uetpeshawar.edu.pk/student/5124487"
+                                target="_blank">5120281</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Imad Javid. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+document.addEventListener('DOMContentLoaded', () => {
+    const openBtn = document.getElementById('openCV');
+    const hideBtn = document.getElementById('hideCV');
+    const cvEmbed = document.getElementById('cvEmbed');
+
+    if (openBtn && hideBtn && cvEmbed) {
+        openBtn.addEventListener('click', () => {
+            cvEmbed.style.display = 'block';
+        });
+
+        hideBtn.addEventListener('click', () => {
+            cvEmbed.style.display = 'none';
+        });
+    }
+});
+</script>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            if (themeToggle.textContent.includes("Dark Mode")) {
+                body.classList.add('dark-mode');
+                themeToggle.textContent = 'Light Mode';
+            } else {
+                body.classList.remove('dark-mode');
+                themeToggle.textContent = 'Dark Mode';
+            }
+        });
+    </script>
+    <script>
+        function filterTable() {
+            let input = document.getElementById("tableSearch");
+            let filter = input.value.toUpperCase();
+            let table = document.querySelector("table");
+            let tr = table.getElementsByTagName("tr");
+            for (let i = 1; i < tr.length; i++) {
+                let td = tr[i].getElementsByTagName("td")[0]; 
+                if (td) {
+                    let textValue = td.textContent || td.innerText;
+                    if (textValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+        function sortTable(n) {
+            let table = document.querySelector("table");
+            let rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+            switching = true;
+            dir = "asc";
+            while (switching) {
+                switching = false;
+                rows = table.rows;
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("td")[n];
+                    y = rows[i + 1].getElementsByTagName("td")[n];
+                    if (dir == "asc") {
+                        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    } else if (dir == "desc") {
+                        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    switchcount++;
+                } else {
+                    if (switchcount == 0 && dir == "asc") {
+                        dir = "desc";
+                        switching = true;
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+    const images = document.querySelectorAll('.gallery img');
+const modal = document.getElementById('imageModal');
+const modalImg = document.getElementById('modalImg');
+const closeBtn = document.querySelector('.close');
+
+images.forEach(img => {
+    img.addEventListener('click', () => {
+        modal.style.display = 'block';
+        modalImg.src = img.src;
+    });
+});
+
+closeBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+});
+
+// Close modal on background click
+modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+        modal.style.display = 'none';
+    }
+});
+</script>
+    <script src="script.js"></script>
+</body>
+
+</html>
